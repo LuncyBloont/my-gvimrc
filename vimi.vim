@@ -3,11 +3,15 @@ set nocompatible
 set nowrap
 set mouse=a
 set laststatus=2
-set statusline=[%-20.32F]%R%M%=pos\ [%4.5l:%4.5c]
+set statusline=EDIT>\ %-28.F%r%m%=POS\ [%4.10l:%3.10c]\ %-6.bUINT
 set autoindent
 set autochdir
 set columns=132
 set lines=32
+set ruler
+set cursorline
+set cursorlineopt=number
+set guifont=inconsolata\ 12
 
 set expandtab
 set tabstop=4
