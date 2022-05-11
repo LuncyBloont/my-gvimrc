@@ -12,7 +12,7 @@ set ruler
 set cursorline
 set cursorlineopt=number
 if (has('win32') || has('win64') || has('win16') || has('win95'))
-    set guifont=inconsolata:h12
+    set guifont=inconsolata:h12:cANSI
 else
     set guifont=inconsolata\ 12
 end
