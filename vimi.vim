@@ -12,11 +12,12 @@ set ruler
 set cursorline
 set cursorlineopt=number
 set backspace=indent,eol,start
+set linespace=1
 
 if (has('win32') || has('win64') || has('win16') || has('win95'))
-    set guifont=inconsolata:h12:cANSI
+    set guifont=Source\ Code\ Pro:h12:cANSI
 else
-    set guifont=inconsolata\ 12
+    set guifont=Source\ Code\ Pro\ 12
 end
 
 set expandtab
