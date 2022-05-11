@@ -34,10 +34,10 @@ imap <M-Up> <Up>
 map <M-Up> <Up>
 imap <M-Down> <Down>
 map <M-Down> <Down>
-imap <M-Left> <ESC>1zli
-map <M-Left> 1zl
-imap <M-Right> <ESC>1zhi
-map <M-Right> 1zh
+imap <M-Left> <ESC>10zhi
+map <M-Left> 10zh
+imap <M-Right> <ESC>10zli
+map <M-Right> 10zl
 imap jk <ESC><Right>
 imap <C-c> <ESC>
 
