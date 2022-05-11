@@ -11,15 +11,19 @@ set lines=32
 set ruler
 set cursorline
 set cursorlineopt=number
+
 if (has('win32') || has('win64') || has('win16') || has('win95'))
     set guifont=inconsolata:h12:cANSI
 else
     set guifont=inconsolata\ 12
 end
+
 set expandtab
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
+
+set backspace=indent,eol,start
 
 filetype plugin on
 filetype indent on
