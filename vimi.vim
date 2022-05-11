@@ -11,7 +11,8 @@ set lines=32
 set ruler
 set cursorline
 set cursorlineopt=number
-set guifont=inconsolata\ 12
+set guifont=inconsolata:h12
+set backspace=indent,eol,start
 
 set expandtab
 set tabstop=4
